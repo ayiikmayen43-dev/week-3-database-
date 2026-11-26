@@ -4,10 +4,10 @@ CREATE TABLE student (
     age INT
 );
 INSERT INTO student (id, fullName, age)
-VALUES
+VALUES 
     (1, 'Amina Diallo', 19),
-    (2, 'Kwame Mensah', 18),
-    (3, 'Zainab Bello', 21);
+    (2, 'Brian Kamau', 18),
+    (3, 'Fatou Ndiaye', 21);
 UPDATE student
-SET age = 22
+SET age = 20
 WHERE id = 2;
